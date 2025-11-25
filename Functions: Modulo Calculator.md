@@ -1,19 +1,25 @@
 # Functions in Python: Modulo Calculator
 
 ## 🎯 Aim
-To write a Python program that defines a function which accepts two values and returns their **modulo** using the `%` operator.
-
+To write a Python program that takes two user input integer values and find the power of them using `pow` built in Python function.
 ## 🧠 Algorithm
-1. Define a function called `result` that takes two arguments `a` and `b`.
-2. Inside the function, compute the modulo using `a % b`.
-3. Print the result of the modulo operation.
-4. Get two integer inputs from the user.
-5. Call the `result` function with the user-provided values.
+1. Take a user input value as integer and store it in a variable `x`.
+2. Take another user input value as integer and store it in a variable `y`.
+3. Using the Python built in function `pow` compute the power of `x` and `y`
+4. Store the result in the variable `z` and print the output.
 
 ## 🧾 Program
-
-Add code Here
+```
+x=int(input())
+y=int(input())
+z=pow(x,y)
+print(z)
+```
 
 ## Output
 
+![pow](https://github.com/user-attachments/assets/765d2d73-612a-4801-8f63-3446f5eb20fe)
+
 ## Result
+Thus a Python program that takes two user input integer values and found the power of them using `pow` built in Python function.
+
