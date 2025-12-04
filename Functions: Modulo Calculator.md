@@ -1,4 +1,4 @@
-# 2)b) Functions in Python: Modulo Calculator
+# 2)b) Functions in Python: Power Calculator
 
 ##  Aim
 To write a Python program that takes two user input integer values and find the power of them using `pow` built in Python function.
